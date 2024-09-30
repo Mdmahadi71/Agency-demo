@@ -23,8 +23,16 @@ const Header = () => {
 
                     </div>
                 </div>
-                <div className="w-[20%]">
-
+                <div className="w-[24%]">
+                    <div className="">
+                          <div className="w-[8%] border-r-[2px] border-white">
+                              <select name="" id="" className=' outline-none bg-Agency-blu'>
+                                  <option value="English" className=' outline-none bg-Agency-blu'>Volvo</option>
+                                  <option value="Bangla" className=' outline-none bg-Agency-blu'>Saab</option>
+                              </select>
+                          </div>
+                          <div className=""></div>
+                    </div>
                 </div>
               </div>
           </div>
