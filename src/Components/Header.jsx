@@ -16,10 +16,10 @@ const Header = () => {
               <div className=" lg:flex justify-between items-center">
                 <div className="lg:w-[75%]">
                     <div className=" lg:flex justify-between mx-auto lg:mx-0">
-                        <div className="lg:w-[44%] border-r-[2px] border-white">
+                        <div className="lg:w-[44%] lg:border-r-[2px] border-white">
                         <h3 className=' font-Dm-sans font-normal text-[14px] text-white'>Welcome to Ortencey Digital Market Agency</h3>
                         </div>
-                        <div className=" lg:w-[23%] mx-auto lg:mx-0 justify-center flex space-x-2 items-center lg:my-0 my-[15px]  border-r-[2px] border-white">
+                        <div className=" lg:w-[23%] mx-auto lg:mx-0 justify-center flex space-x-2 items-center lg:my-0 my-[15px]  lg:border-r-[2px] border-white">
                             <FaPhoneAlt className=' text-Agency-liniar'/>
                             <p className=' font-Dm-sans font-normal text-[14px] text-white '>+88 ( 5548 ) 6548</p>
                         </div>
@@ -56,15 +56,15 @@ const Header = () => {
           </div>
       </div>
 
-      <div className="">
+      <div className=" py-4">
         <div className=" container">
             <div className=" flex justify-between items-center">
                 <div className="w-[20%]">
                     <div className=" flex space-x-2 items-center">
-                        <div className="">
+                        <div className="w-[40%]">
                             <img src={agenIcon} alt="" />
                         </div>
-                        <div className="">
+                        <div className="w-[55%]">
                             <p className=' font-Dm-sans font-medium text-[22px] text-black'>ortencey</p>
                             <p className=' font-Dm-sans font-normal text-[12px] text-Agency-blu'>Digital Marketing</p>
                         </div>
