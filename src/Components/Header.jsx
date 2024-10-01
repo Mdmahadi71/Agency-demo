@@ -1,12 +1,12 @@
 import React from 'react'
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-
+import { FaFacebookF ,FaLinkedin , FaTwitter ,FaYoutube} from "react-icons/fa";
 const Header = () => {
   return (
       <div className=' bg-Agency-blu py-[15px]'> 
           <div className=" container">
-              <div className="">
+              <div className=" flex justify-between items-center">
                 <div className="w-[75%]">
                     <div className=" flex justify-between">
                         <div className="w-[44%] border-r-[2px] border-white">
@@ -24,14 +24,25 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="w-[24%]">
-                    <div className="">
-                          <div className="w-[8%] border-r-[2px] border-white">
-                              <select name="" id="" className=' outline-none bg-Agency-blu'>
-                                  <option value="English" className=' outline-none bg-Agency-blu'>Volvo</option>
-                                  <option value="Bangla" className=' outline-none bg-Agency-blu'>Saab</option>
+                    <div className=" flex justify-between items-center">
+                          <div className="w-[38%] border-r-[2px] border-white">
+                              <select name="" id="" className=' outline-none bg-Agency-blu font-Dm-sans font-medium text-[15px] text-white'>
+                                  <option value="English" className=' font-Dm-sans font-medium text-[15px] text-white outline-none bg-Agency-blu'>English</option>
+                                  <option value="Bangla" className=' outline-none bg-Agency-blu'>Bangla</option>
                               </select>
                           </div>
-                          <div className=""></div>
+                          <div className="w-[13%] mx-auto border-r-[2px] border-white">
+                            <FaFacebookF className=' text-[20px] text-white  hover:text-Agency-liniar duration-300'/>
+                          </div>
+                          <div className="w-[13%] mx-auto border-r-[2px] border-white">
+                            <FaLinkedin className=' text-[20px] text-white  hover:text-Agency-liniar duration-300'/>
+                          </div>
+                          <div className="w-[13%] mx-auto border-r-[2px] border-white">
+                            <FaTwitter className=' text-[20px] text-white  hover:text-Agency-liniar duration-300'/>
+                          </div>
+                          <div className="w-[13%] mx-auto border-r-[2px] border-white border-h-full">
+                          <FaYoutube className=' text-[20px] text-white  hover:text-Agency-liniar duration-300'/>
+                          </div>
                     </div>
                 </div>
               </div>
