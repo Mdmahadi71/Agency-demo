@@ -23,6 +23,7 @@ export default {
       colors: {
         'Agency-blu': '#3661FC',
         'Agency-liniar': '#FE651B',
+        'Agency-menu': '#FE681E',
 
       },
     },
