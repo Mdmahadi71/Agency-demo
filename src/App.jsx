@@ -5,6 +5,7 @@ import MarketingCon from './Components/MarketingCon'
 import Developerzoon from './Components/Developerzoon'
 import Reason from './Components/Reason'
 import Pricing from './Components/Pricing'
+import Appointment from './Components/Appointment'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Developerzoon/>
       <Reason/>
       <Pricing/>
+      <Appointment/>
     </>
   )
 }
