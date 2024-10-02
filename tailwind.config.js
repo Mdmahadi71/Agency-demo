@@ -5,14 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    container: {
-      padding: {
-        DEFAULT: '1rem',
-        sm: '2rem',
-        lg: '4rem',
-        xl: '5rem',
-        '2xl': '6rem',
-      },
+    container:{
+      center: true,
+      padding:{
+        DEFAULT:"15px",
+        sm: "30px",
+        lg: "60px",
+        xl: "75px",
+        "2xl": "96px",
+      }
     },
     fontFamily: {
       'Dm-sans': ['DM Sans', 'sans-serif'],
@@ -24,6 +25,8 @@ export default {
         'Agency-blu': '#3661FC',
         'Agency-liniar': '#FE651B',
         'Agency-menu': '#FE681E',
+        'Agency-Banner': '#6B6161',
+        'Agency-deve': '#CCCCCC',
 
       },
     },

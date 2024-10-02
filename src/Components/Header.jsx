@@ -85,11 +85,16 @@ const Header = () => {
                 </div>
                 <div className="w-[25%]">
                     <div className=" flex justify-around items-center">
-                        <div className="w-[20%] border-[1px] border-Agency-blu px-3 py-3 rounded-[50%]">
-                            <IoSearch/>
+                       
+                        <div className="w-[20%] ">
+                            <div className=" border-[1px] justify-center mx-auto text-center items-center border-Agency-blu px-3 py-3 rounded-[50%]  transform translate-[-50%]">
+                            <IoSearch className=''/>
+                            </div>
                         </div>
-                        <div className="w-[20%] border-[1px] border-Agency-blu px-3 py-3 rounded-[50%]">
-                            <IoBag/>
+                        <div className="w-[20%] ">
+                            <div className=" border-[1px] justify-center mx-auto text-center items-center border-Agency-blu px-3 py-3 rounded-[50%]  transform translate-[-50%]">
+                            <IoBag className=''/>
+                            </div>
                         </div>
                         <div className="w-[50%] ">
                             <p className=' border-[1px] border-Agency-blu py-[10px] px-[15px] rounded-[20px] bg-Agency-blu font-Nunito font-normal text-white text-[12px] text-center'>Free Quote</p>
