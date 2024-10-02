@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { GoGoal } from "react-icons/go";
 import { Line, Circle } from 'rc-progress';
+import reasonImg from '../assets/reasonImg.jpg'
 
 
     const skills = [
@@ -31,7 +32,7 @@ const Reason = () => {
   return (
     <div>
         <div className=" container">
-            <div className="">
+            <div className=" flex justify-between items-center">
                 <div className="w-[53%]">
                     <div className="">
                         <p className=' flex gap-x-2 items-center font-Dm-sans font-normal text-Agency-blu text-[18px]'><GoGoal/>Why Choose Ortencey</p>
@@ -53,7 +54,14 @@ const Reason = () => {
                      </div>
                     </div>
                 </div>
-                <div className="w-[43%]"></div>
+                <div className="w-[43%]">
+                    <div className=" relative">
+                        <img src={reasonImg} className=' w-full h-full rounded-[25px]' alt="" />
+                        <div className=" absolute bottom-0 left-[35%] transform translate-x-[-30%] px-[20px] py-[15px] bg-white rounded-[20px] ">
+                            <h3 className=' font-Dm-sans font-bold text-[25px] text-black'><span className=' text-[46px] text-Agency-liniar font-Dm-sans font-bold'>25</span> Years Experience</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

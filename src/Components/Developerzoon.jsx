@@ -15,7 +15,7 @@ const Developerzoon = () => {
                             <SiCairographics className=' mx-auto text-[40px] text-white top-[50%] transform translate-y-[50%] '/>
                         </div>
                     
-                    <div className="  absolute bottom-0 left-0 p-5 bg-[#F4F4FF]">
+                    <div className="  absolute bottom-0 left-0 p-5 bg-[#F4F4FF] rounded-b-[20px]">
                         <h2 className=' font-Dm-sans font-bold text-black text-[25px] hover:text-Agency-blu duration-300 '>Graphics Design</h2>
                         <p className=' font-Dm-sans font-medium text-[#6B6161] text-[16px] '>Contrary to popular belief, Lorem Ips is not simply random text. It has root in a piece of classical.</p>
                     </div>
@@ -27,7 +27,7 @@ const Developerzoon = () => {
                             <IoCodeSlashSharp className=' mx-auto text-[40px] text-white top-[50%] transform translate-y-[50%] '/>
                         </div>
                     
-                    <div className="  absolute bottom-0 left-0 p-5 bg-[#F4F4FF]">
+                    <div className="  absolute bottom-0 left-0 p-5 bg-[#F4F4FF] rounded-b-[20px]">
                         <h2 className=' font-Dm-sans font-bold text-black text-[25px] hover:text-Agency-blu duration-300 '>Web Developer</h2>
                         <p className=' font-Dm-sans font-medium text-[#6B6161] text-[16px] '>Contrary to popular belief, Lorem Ips is not simply random text. It has root in a piece of classical.</p>
                     </div>
@@ -39,7 +39,7 @@ const Developerzoon = () => {
                             <TbWebhook className=' mx-auto text-[40px] text-white top-[50%] transform translate-y-[50%] '/>
                         </div>
                     
-                    <div className="  absolute bottom-0 left-0 p-5 bg-[#F4F4FF]">
+                    <div className="  absolute bottom-0 left-0 p-5 bg-[#F4F4FF] rounded-b-[20px]">
                         <h2 className=' font-Dm-sans font-bold text-black text-[25px] hover:text-Agency-blu duration-300 '>Digital Marketing</h2>
                         <p className=' font-Dm-sans font-medium text-[#6B6161] text-[16px] '>Contrary to popular belief, Lorem Ips is not simply random text. It has root in a piece of classical.</p>
                     </div>
@@ -51,7 +51,7 @@ const Developerzoon = () => {
                             <MdOutlineDeveloperMode className=' mx-auto text-[40px] text-white top-[50%] transform translate-y-[50%] '/>
                         </div>
                     
-                    <div className="  absolute bottom-0 left-0 p-5 bg-[#F4F4FF]">
+                    <div className="  absolute bottom-0 left-0 p-5 bg-[#F4F4FF] rounded-b-[20px]">
                         <h2 className=' font-Dm-sans font-bold text-black text-[25px] hover:text-Agency-blu duration-300 '>App Design</h2>
                         <p className=' font-Dm-sans font-medium text-[#6B6161] text-[16px] '>Contrary to popular belief, Lorem Ips is not simply random text. It has root in a piece of classical.</p>
                     </div>
