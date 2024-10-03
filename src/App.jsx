@@ -6,6 +6,7 @@ import Developerzoon from './Components/Developerzoon'
 import Reason from './Components/Reason'
 import Pricing from './Components/Pricing'
 import Appointment from './Components/Appointment'
+import Member from './Components/Member'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Reason/>
       <Pricing/>
       <Appointment/>
+      <Member/>
     </>
   )
 }
