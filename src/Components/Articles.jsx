@@ -26,7 +26,7 @@ const Articles = () => {
                                 <h3 className=' font-Dm-sans font-normal text-[16px] text-[#6B6161] flex items-center gap-x-2 '><IoChatbubbles/> 25</h3>
                                 <h3 className=' font-Dm-sans font-normal text-[16px] text-[#6B6161] flex items-center gap-x-2 '><FaEye/> 120 Views</h3>
                             </div>
-                            <h3 className=' font-Dm-sans font-medium text-[25px] text-Agency-blu underline'>Successful business partner have a meeting and discussing</h3>
+                            <h3 className=' font-Dm-sans font-medium text-[25px] text-black hover:text-Agency-blu duration-300 underline'>Successful business partner have a meeting and discussing</h3>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const Articles = () => {
                                 <h3 className=' font-Dm-sans font-normal text-[16px] text-[#6B6161] flex items-center gap-x-2 '><IoChatbubbles/> 25</h3>
                                 <h3 className=' font-Dm-sans font-normal text-[16px] text-[#6B6161] flex items-center gap-x-2 '><FaEye/> 120 Views</h3>
                             </div>
-                            <h3 className=' font-Dm-sans font-medium text-[25px] text-Agency-blu underline'>Successful business partner have a meeting and discussing</h3>
+                            <h3 className=' font-Dm-sans font-medium text-[25px] text-black hover:text-Agency-blu duration-300 underline'>Successful business partner have a meeting and discussing</h3>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ const Articles = () => {
                                 <h3 className=' font-Dm-sans font-normal text-[16px] text-[#6B6161] flex items-center gap-x-2 '><IoChatbubbles/> 25</h3>
                                 <h3 className=' font-Dm-sans font-normal text-[16px] text-[#6B6161] flex items-center gap-x-2 '><FaEye/> 120 Views</h3>
                             </div>
-                            <h3 className=' font-Dm-sans font-medium text-[25px] text-Agency-blu underline'>Successful business partner have a meeting and discussing</h3>
+                            <h3 className=' font-Dm-sans font-medium text-[25px] text-black hover:text-Agency-blu duration-300 underline'>Successful business partner have a meeting and discussing</h3>
                         </div>
                     </div>
                 </div>
