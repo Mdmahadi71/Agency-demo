@@ -8,6 +8,7 @@ import Pricing from './Components/Pricing'
 import Appointment from './Components/Appointment'
 import Member from './Components/Member'
 import Quality from './Components/Quality'
+import Articles from './Components/Articles'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Appointment/>
       <Quality/>
       <Member/>
+      <Articles/>
     </>
   )
 }
