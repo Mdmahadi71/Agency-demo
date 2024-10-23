@@ -1,33 +1,21 @@
 import { useState } from 'react'
-import Header from './Components/Header'
-import Banner from './Components/Banner'
-import MarketingCon from './Components/MarketingCon'
-import Developerzoon from './Components/Developerzoon'
-import Reason from './Components/Reason'
-import Pricing from './Components/Pricing'
-import Appointment from './Components/Appointment'
-import Member from './Components/Member'
-import Quality from './Components/Quality'
-import Articles from './Components/Articles'
-import Footer from './Components/Footer'
+import { createBrowserRouter,createRoutesFromElements ,Route ,RouterProvider} from 'react-router-dom'
+import Layout from './Components/Layout'
+import Home from './Pages/Home'
 
 
 function App() {
-
+  const router = createBrowserRouter(createRoutesFromElements(
+    <Route element={ <Layout/>}>
+      <Route path='/' element={<Home/>}></Route>
+    </Route>
+  ))
 
   return (
     <>
-      <Header/>
-      <Banner/>
-      <MarketingCon/>
-      <Developerzoon/>
-      <Reason/>
-      <Pricing/>
-      <Appointment/>
-      <Quality/>
-      <Member/>
-      <Articles/>
-      <Footer/>
+      <RouterProvider router={router}>
+
+      </RouterProvider>
     </>
   )
 }
