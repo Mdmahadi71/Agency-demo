@@ -5,7 +5,7 @@ import { FaFacebookF ,FaLinkedin , FaTwitter ,FaYoutube} from "react-icons/fa";
 import agenIcon from '../assets/agencyHedarIcon.png'
 import { IoIosArrowDown } from "react-icons/io";
 import { IoSearch ,IoBag} from "react-icons/io5";
-
+import {Link} from 'react-router-dom'
 
 
 const Header = () => {
@@ -72,8 +72,8 @@ const Header = () => {
                 </div>
                 <div className="w-[55%]">
                     <ul className=' flex justify-between items-center'> 
-                        <li className=' flex items-center gap-x-1 font-Nunito font-normal text-[16px] text-black hover:text-Agency-menu duration-300'>Home <IoIosArrowDown/> </li>
-                        <li className=' flex items-center gap-x-1 font-Nunito font-normal text-[16px] text-black hover:text-Agency-menu duration-300'>About <IoIosArrowDown/> </li>
+                        <Link to={'/'}><li className=' flex items-center gap-x-1 font-Nunito font-normal text-[16px] text-black hover:text-Agency-menu duration-300'>Home <IoIosArrowDown/> </li></Link>
+                        <Link to={'/About'}>                        <li className=' flex items-center gap-x-1 font-Nunito font-normal text-[16px] text-black hover:text-Agency-menu duration-300'>About <IoIosArrowDown/> </li></Link>
                         <li className=' flex items-center gap-x-1 font-Nunito font-normal text-[16px] text-black hover:text-Agency-menu duration-300'>Services <IoIosArrowDown/> </li>
                         <li className=' flex items-center gap-x-1 font-Nunito font-normal text-[16px] text-black hover:text-Agency-menu duration-300'>Team <IoIosArrowDown/> </li>
                         <li className=' flex items-center gap-x-1 font-Nunito font-normal text-[16px] text-black hover:text-Agency-menu duration-300'>Pages <IoIosArrowDown/> </li>
